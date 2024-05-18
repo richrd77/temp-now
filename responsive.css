@@ -23,11 +23,24 @@ list-style: none;
 display: flex;
 gap: 1em;
 }
+div.ham {
+display:none;
+}
 
 @media (max-width:700px) {
 ul {
 opacity: 0;
 pointer-events: none;
+flex-direction: column;
+gap: 3em;
+position: fixed;
+right: 10px;
+top: 4em;
+}
+
+ul.show-menu {
+ opacity: 1;
+pointer-evets: all;
 }
 
 div.ham {
