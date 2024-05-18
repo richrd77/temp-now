@@ -1,19 +1,28 @@
 <html>
 <head>
-<link href="/temp-now/responsive.css" rel="stylesheet"></link>
+<link href="./responsive.css" rel="stylesheet"></link>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <header>
 <h1>MySite</h1>
 <nav>
+<div class="ham">
+<span></span>
+<span></span>
+<span></span>
+</div>
 <ul>
 <li><a href="#">Home</a></li>
 <li><a href="#">Contact</a></li>
-  <li><a href="#">Location</a></li>
-<li><a href="#">addres</a></li>
 </ul>
 </nav>
 </header>
 </body>
+
+<script>
+document.querySelector(.ham).addEventLister('click',() => {
+document.querySelector('nav ul').classList.toggle('show-menu')
+}
+</script>
 </html>
