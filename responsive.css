@@ -36,6 +36,8 @@ gap: 3em;
 position: fixed;
 right: 10px;
 top: 4em;
+ background-color: blue;
+ bottom: 0;
 }
 
 ul.show-menu {
