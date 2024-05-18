@@ -45,13 +45,13 @@ pointer-evets: all;
 
 div.ham {
 display:block;
-
 }
 
 div.ham span {
-diplay: inline-block;
+display: block;
 height: 5px;
-width: 20px;
+width: 50px;
 background-color: white;
+margin: 5px 0;
 }
 }
